@@ -1,0 +1,6 @@
+env:
+  id: 1030
+  name: dev1
+
+helmChartsRepoURL: https://github.com/cilasbeltrame/argocd-example-apps
+helmChartsTargetRevision: 0.4.0
