@@ -1,3 +1,4 @@
+cloud: aws
 env:
   id: 1030
   name: dev1
