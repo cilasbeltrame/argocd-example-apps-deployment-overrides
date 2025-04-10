@@ -21,8 +21,7 @@ template = env.get_template("application.j2")
 
 # Render the template with YAML data
 output = template.render(data)
-
-print(output)
+# 
 # Get output file path from arguments or use a default
 output_file = sys.argv[2] if len(sys.argv) > 2 else "application.yaml"
 
